@@ -6,6 +6,15 @@ import os
 import uuid
 from io import BytesIO
 
+@st.cache_resource # Isso mantém a IA carregada na memória, sem precisar reiniciar
+def carregar_modelo():
+    # Apenas para garantir que o rembg esteja pronto
+    from rembg import new_session
+    return new_session()
+
+session = carregar_modelo()
+# Na hora de usar: output = remove(img_aluno, session=session)
+
 # --- CONFIGURAÇÃO DE AMBIENTE ---
 # Na nuvem, usamos caminhos temporários do sistema
 PASTA_FOTOS = "static" 
