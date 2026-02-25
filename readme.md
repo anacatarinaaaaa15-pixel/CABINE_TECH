@@ -40,6 +40,11 @@ python -m venv venv
 venv\Scripts\activate   # Windows
 ```
 
+Para desativar o ambiente virtual:
+```bash
+deactivate
+```
+
 Instale as bibliotecas:
 
 ```bash
