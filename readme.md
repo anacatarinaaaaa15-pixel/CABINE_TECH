@@ -1,4 +1,4 @@
-# 📸 Cabine de Fotos - Liga de IA UNIFESP
+# 📸 Cabine de Fotos - LigaDis UNIFESP
 
 Aplicação web desenvolvida em **Streamlit** para gerar fotos personalizadas com:
 
