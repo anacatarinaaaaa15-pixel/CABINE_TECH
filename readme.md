@@ -61,7 +61,7 @@ pip install streamlit rembg pillow qrcode requests onnxruntime
 
 ## 🔑 Configurar API Key
 
-No arquivo `app.py`, coloque sua chave da API do IMGBB:
+No arquivo `cabine.py`, coloque sua chave da API do IMGBB:
 
 ```python
 API_KEY = "SUA_CHAVE_AQUI"
@@ -121,7 +121,7 @@ Após gerar a foto:
 ```
 📦 cabine-fotos
  ┣ 📂 static
- ┣ 📜 app.py
+ ┣ 📜 cabine.py
  ┣ 📜 requirements.txt
  ┗ 📜 README.md
 ```
