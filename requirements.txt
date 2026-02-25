@@ -2,3 +2,5 @@ streamlit
 rembg
 pillow
 qrcode
+requests
+onnxruntime
