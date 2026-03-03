@@ -19,7 +19,7 @@ if not os.path.exists(PASTA_FOTOS):
 # 🔑 COLE SUA API KEY DO IMGBB AQUI
 API_KEY = "b5a8fe20c44ae277be2ccc46d50472ce"
 
-st.set_page_config(page_title="Liga de IA UNIFESP - Cabine", layout="centered")
+st.set_page_config(page_title="Cabine Tech", layout="centered")
 
 # ==============================
 # ESTADO
